@@ -53,14 +53,23 @@ p {
 }
 
 
-.flexbox-container {
+div.train-line{
   display: flex;
-  flex-direction: column;
   row-gap: 100px;
   margin-top: 100px;
   margin-bottom: 100px;
+
 }
 
+div.train-line .train-icon{
+  flex-basis: 25%;
+}
+
+div.train-line .train-list{
+  flex-basis: 80%;
+  margin-top: 20px;
+  font-size: 18px;
+}
 
 
 .question {
@@ -68,23 +77,12 @@ p {
   margin-right: 15%;
 }
 
-.train_icon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-max-width: 1000px;
-
-
-}
 
 /* .main_img {
   max-width: 800px;
   width: 50%;
 
 } */
-
-}
-
 
 
 figure {
@@ -140,10 +138,10 @@ section .train_icon {
 }
 
 li {
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
   text-align: left;
-  margin-right: 10%
+  margin-right: 15%
 }
 
 .train-name {
@@ -153,10 +151,17 @@ li {
   font-family: "Bebas Neue";
 }
 
-.train-icon {
-  width: 1000px;
-  height: 100px;
+
+div .img {
+  width: 20%;
+  max-width: 100px;
 }
+
+div .train-icon img {
+  max-width: 150px;
+  height: auto;
+}
+
 
 
 
