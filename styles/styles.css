@@ -68,13 +68,14 @@ div.train-line .train-icon{
 div.train-line .train-list{
   flex-basis: 80%;
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
 .question {
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom: 5%;
 }
 
 
@@ -96,6 +97,7 @@ figure {
 
 figcaption{
   min-width: 100px;
+  font-weight: bold;
 
 }
 .text-box {
@@ -138,6 +140,8 @@ section .train_icon {
 }
 
 li {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 19px;
   padding-left: 15%;
   padding-right: 15%;
   text-align: left;
@@ -162,6 +166,9 @@ div .train-icon img {
   height: auto;
 }
 
+.image-credit {
+  font-weight:bold;
+}
 
 
 
